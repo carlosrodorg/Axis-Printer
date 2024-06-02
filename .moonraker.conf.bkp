@@ -22,18 +22,6 @@ trusted_clients =
 	FE80::/10
 	::1/128
 
-[paneldue]
-serial = /dev/ttyAMA0
-baud = 57600
-machine_name = Axis
-macros = 
-	LOAD_FILAMENT
-	UNLOAD_FILAMENT
-	PANELDUE_BEEP FREQUENCY=500 DURATION=1
-confirmed_macros = 
-	RESTART
-	FIRMWARE_RESTART
-
 [octoprint_compat]
 
 [history]
